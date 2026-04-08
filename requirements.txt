@@ -1,0 +1,11 @@
+# Core dependencies
+pandas>=2.0.0
+ollama>=0.1.0
+
+# Toxicity detection (lightweight transformer model)
+detoxify>=0.5.0
+
+# Required by detoxify
+torch>=2.0.0
+transformers>=4.30.0
+matplotlib>=3.8.0

@@ -1,0 +1,42 @@
+# Virtual environment
+align-env/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML Model caches
+.cache/
+.deepeval/
+*.ckpt
+*.pth
+*.pt
+
+# Output files (keep directory structure, ignore data)
+outputs/*.csv
+!outputs/.gitkeep
+
+# Environment variables
+.env
+.env.local
